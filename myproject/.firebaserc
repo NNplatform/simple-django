@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "devfun-simple-django"
+  },
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
